@@ -1,0 +1,11 @@
+# Q CLI 워크샵 - RNA 분석 실습용 Python 패키지
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+scikit-learn>=1.1.0
+scipy>=1.9.0
+
+# 선택적 패키지 (고급 기능용)
+# seaborn>=0.11.0  # 시각화 개선용
+# plotly>=5.0.0    # 인터랙티브 플롯용
+# bokeh>=2.4.0     # 인터랙티브 시각화용
