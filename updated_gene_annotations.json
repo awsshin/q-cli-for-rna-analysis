@@ -1,0 +1,121 @@
+{
+  "gene_annotations": {
+    "ENSG00000139618": {
+      "symbol": "BRCA2",
+      "biotype": "protein_coding",
+      "chromosome": "13",
+      "start": 32315086,
+      "end": 32400266,
+      "strand": "+",
+      "description": "BRCA2 DNA repair associated",
+      "updated_date": "2024-08-01"
+    },
+    "ENSG00000012048": {
+      "symbol": "BRCA1",
+      "biotype": "protein_coding",
+      "chromosome": "17",
+      "start": 43044295,
+      "end": 43170245,
+      "strand": "-",
+      "description": "BRCA1 DNA repair associated",
+      "updated_date": "2024-08-01"
+    },
+    "ENSG00000141510": {
+      "symbol": "TP53",
+      "biotype": "protein_coding",
+      "chromosome": "17",
+      "start": 7661779,
+      "end": 7687550,
+      "strand": "-",
+      "description": "tumor protein p53",
+      "updated_date": "2024-08-01"
+    },
+    "ENSG00000171862": {
+      "symbol": "PTEN",
+      "biotype": "protein_coding",
+      "chromosome": "10",
+      "start": 87863113,
+      "end": 87971930,
+      "strand": "+",
+      "description": "phosphatase and tensin homolog",
+      "updated_date": "2024-08-01"
+    },
+    "ENSG00000134086": {
+      "symbol": "VHL",
+      "biotype": "protein_coding",
+      "chromosome": "3",
+      "start": 10183319,
+      "end": 10195354,
+      "strand": "+",
+      "description": "von Hippel-Lindau tumor suppressor",
+      "updated_date": "2024-08-01"
+    },
+    "ENSG00000157764": {
+      "symbol": "BRAF",
+      "biotype": "protein_coding",
+      "chromosome": "7",
+      "start": 140719327,
+      "end": 140924929,
+      "strand": "-",
+      "description": "B-Raf proto-oncogene, serine/threonine kinase",
+      "updated_date": "2024-08-01"
+    },
+    "ENSG00000133703": {
+      "symbol": "KRAS",
+      "biotype": "protein_coding",
+      "chromosome": "12",
+      "start": 25205246,
+      "end": 25250929,
+      "strand": "-",
+      "description": "KRAS proto-oncogene, GTPase",
+      "updated_date": "2024-08-01"
+    }
+  },
+  "pathway_info": {
+    "DNA_REPAIR": {
+      "genes": ["ENSG00000139618", "ENSG00000012048", "ENSG00000141510"],
+      "description": "DNA damage response and repair pathways",
+      "updated_date": "2024-08-01"
+    },
+    "TUMOR_SUPPRESSOR": {
+      "genes": ["ENSG00000141510", "ENSG00000171862", "ENSG00000134086"],
+      "description": "Tumor suppressor gene network",
+      "updated_date": "2024-08-01"
+    },
+    "CELL_CYCLE": {
+      "genes": ["ENSG00000141510", "ENSG00000139618", "ENSG00000012048"],
+      "description": "Cell cycle regulation and checkpoint control",
+      "updated_date": "2024-08-01"
+    },
+    "RAS_SIGNALING": {
+      "genes": ["ENSG00000133703", "ENSG00000157764"],
+      "description": "RAS/RAF/MEK/ERK signaling pathway",
+      "updated_date": "2024-08-01"
+    },
+    "PI3K_AKT": {
+      "genes": ["ENSG00000171862"],
+      "description": "PI3K/AKT/mTOR signaling pathway",
+      "updated_date": "2024-08-01"
+    }
+  },
+  "expression_thresholds": {
+    "low_expression": 0.5,
+    "high_expression": 15.0,
+    "fold_change_cutoff": 1.5,
+    "pvalue_cutoff": 0.01,
+    "fdr_cutoff": 0.05,
+    "min_cpm": 1.0,
+    "updated_date": "2024-08-01"
+  },
+  "housekeeping_genes": {
+    "genes": [
+      "ENSG00000075624",
+      "ENSG00000111640", 
+      "ENSG00000089157",
+      "ENSG00000198888",
+      "ENSG00000198763"
+    ],
+    "symbols": ["ACTB", "GAPDH", "RPLP0", "MT-ND1", "MT-ND2"],
+    "updated_date": "2024-08-01"
+  }
+}
