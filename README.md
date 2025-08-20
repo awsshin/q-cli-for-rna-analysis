@@ -52,14 +52,44 @@
 
 1. 저장소 클론:
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone https://github.com/awsshin/q-cli-for-rna-analysis.git
+cd q-cli-for-rna-analysis
 ```
 
-2. 의존성 패키지 설치:
+2. uv를 사용한 가상환경 생성 및 활성화:
 ```bash
+# uv가 설치되어 있지 않다면 먼저 설치
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# 가상환경 생성
+uv venv
+
+# 가상환경 활성화 (Linux/macOS)
+source .venv/bin/activate
+
+# 가상환경 활성화 (Windows)
+# .venv\Scripts\activate
+```
+
+3. 의존성 패키지 설치:
+```bash
+# uv를 사용한 패키지 설치 (권장)
+uv pip install -r requirements.txt
+
+# 또는 일반 pip 사용
 pip install -r requirements.txt
 ```
+
+4. Amazon Q Developer CLI 로그인 및 환경 진입:
+```bash
+# Q CLI 로그인 (브라우저를 통한 인증)
+q login
+
+# Q CLI 채팅 환경 진입
+q chat
+```
+
+이제 Q CLI 환경에서 실습을 시작할 수 있습니다!
 
 ## Q CLI 실습 예시
 
